@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import GameCard from "./components/GameCard"
 import data from "./data.json"
+
 function App() {
 	const games = data.results;
 	const elements = games.map((game) => {
