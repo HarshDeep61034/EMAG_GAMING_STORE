@@ -5,7 +5,7 @@ import Model from '../../public/Xbox_controller_free';
 
 const ControllerModel = () => {
 	const [isHovered, setIsHovered] = useState(false);
-
+  
 	const handleMouseEnter = () => {
 		setIsHovered(true);
 	};
